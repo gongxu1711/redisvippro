@@ -1,0 +1,23 @@
+package itforstudent;
+
+public class BT1 {
+	public static void main(String[] args) {
+		System.out.println(summm(10,15));
+	}
+	public static int sum(int k) {
+		if(k > 0) {
+			return k + sum(k-1);
+		} else {
+			return 0;
+		}
+	}
+	
+	public static int summm(int start, int end) {
+		if(start < end) {
+			return start + sum(start + 1, end)
+		} else {
+			return 0;
+		}
+	}
+}
+

@@ -1,0 +1,6 @@
+package itforstudent;
+
+public class Fouth {
+	Third myObj = new Third();
+	System.out.println(myObj.name);
+}

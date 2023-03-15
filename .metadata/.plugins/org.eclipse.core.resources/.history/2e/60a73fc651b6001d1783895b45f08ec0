@@ -1,0 +1,8 @@
+package itforstudent;
+
+public class BT1 {
+	public static void main(String[] args) {
+		int myRandomnum = (int)(math.random());
+		System.out.println(Math.random());
+	}
+}

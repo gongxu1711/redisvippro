@@ -1,0 +1,20 @@
+package itforstudent;
+
+import java.util.Scanner;
+
+class MyClass {
+  public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    System.out.println("Nhap a: ");
+    double a = scan.nextDouble();
+    System.out.println("Nhap b: ");
+    double b = scan.nextDouble();
+    System.out.println("Nhap c: ");
+    double c = scan.nextDouble();
+    if(a + b <= c || b + c <= a || a + c <= b) {
+    	System.out.println("Khong la tam giac");
+    } else {
+    	System.out.println("La tam giac");
+    }
+  }
+}

@@ -1,0 +1,9 @@
+package itforstudent;
+
+public class Fouth {
+	public static void main(String[] args) {
+		Third myObj = new Third();
+		myObj.setName("Dung");
+		System.out.println(myObj.getName());
+	}
+}

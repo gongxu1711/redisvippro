@@ -1,0 +1,17 @@
+package itforstudent;
+
+public class BT1 {
+	int speed;
+	String model;
+	
+	public BT1(int sp, String md) {
+		speed = sp;
+		model = md;
+	}
+	
+	public static void Main(String args) {
+		BT1 myObj = new BT1(100, "rolex");
+		System.out.println(myObj.speed + " " + myObj.model);
+	}
+}
+

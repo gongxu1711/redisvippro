@@ -1,0 +1,18 @@
+package itforstudent;
+
+import java.util.Scanner;
+
+public class Fiveth {
+  public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    System.out.println("Nhap a, b, c: ");
+    double a = scan.nextDouble();
+    double b = scan.nextDouble();
+    double c = scan.nextDouble();
+    if(a + b <= c || b + c <= a || a + c <= b) {
+    	System.out.println("Khong la tam giac");
+    } else {
+    	System.out.println("La tam giac");
+    }
+  }
+}

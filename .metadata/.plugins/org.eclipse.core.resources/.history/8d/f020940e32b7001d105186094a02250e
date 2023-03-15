@@ -1,0 +1,12 @@
+package itforstudent;
+
+import java.util.Scanner;
+
+class Fiveth {
+  public static void main(String[] args) {
+    Third obj = new Third();
+    obj.getName("Manh");
+    System.out.println(obj.getName());
+    
+  }
+}

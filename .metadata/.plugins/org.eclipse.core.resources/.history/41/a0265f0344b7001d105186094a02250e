@@ -1,0 +1,19 @@
+package itforstudent;
+
+import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.LinkedList;
+
+class Fiveth {
+  public static void main(String[] args) {
+    Third obj = new Third();
+    obj.setName("Manh");
+    System.out.println(obj.getName());
+    ArrayList<String> cars = new ArrayList<String>();
+    cars.add("Volvo");
+    cars.add("BMW");
+    cars.add("Ford");
+    cars.add("Mazda");
+    System.out.println(cars);
+  }
+}

@@ -1,0 +1,30 @@
+package itforstudent;
+
+public class BT1 {
+	int x = 5;
+	public static void main(String[] args) {
+		BT1 myObj = new BT1();
+		BT1 myObj1 = new BT1();
+		myObj.x = 15;
+		myObj1.x = 12;
+		System.out.println(myObj1.x);
+		System.out.println(myObj.x);
+		//System.out.println(summm(10,15));
+	}
+	public static int sum(int k) {
+		if(k > 0) {
+			return k + sum(k-1);
+		} else {
+			return 0;
+		}
+	}
+	
+	public static int summm(int start, int end) {
+		if(start < end) {
+			return start + summm(start + 1, end);
+		} else {
+			return 0;
+		}
+	}
+}
+

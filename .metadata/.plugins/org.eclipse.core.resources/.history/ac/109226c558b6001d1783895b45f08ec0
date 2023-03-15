@@ -1,0 +1,23 @@
+package itforstudent;
+
+public class BT1 {
+	public static void main(String[] args) {
+		for(int i = 0; i < 10; i++) {
+			if(i == 4) {
+				continue;
+			} else {
+				System.out.println(i);
+			}
+		}
+		int arr[] = {1,2,3,4,5,5,6,6,7};
+		String materials[] = {"Poly","Cotton","Tici","Lua","Theu"};
+		for(int x : arr) {
+			System.out.println(x);
+		}
+		String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+		for (int i = 0; i < cars.length; i++) {
+		  System.out.println(cars[i]);
+		}
+	}
+}
+

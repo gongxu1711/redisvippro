@@ -1,0 +1,7 @@
+package itforstudent;
+
+public class BT1 {
+	public static void main(String[] args) {
+		System.out.println(Math.abs(-2313));
+	}
+}
